@@ -5,3 +5,11 @@
 3. Text encoder converts text into embedding.
 4. Similar embeddings mean similar meaning.
 5. CLIP uses contrastive learning.
+
+6. ## Author
+
+Shreya Sharma
+
+B.Tech CSE 
+
+Learning Multimodal AI, CLIP, Embeddings, and Retrieval Systems.
