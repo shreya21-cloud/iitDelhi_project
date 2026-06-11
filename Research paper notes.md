@@ -55,3 +55,29 @@ Grasp score
 Limitation:
 
 Does not know which object is the target object.
+
+4. Why CLIP is Used?
+
+CLIP learns relationships between:
+
+Images
+Text
+
+Benefits:
+
+Understands object names.
+Understands attributes like:
+Color
+Shape
+Size
+Helps generalize to unseen objects.
+
+Example:Training:
+
+Green Bell Pepper
+
+Testing:
+
+Yellow Bell Pepper
+
+CLIP can still understand the relationship.
