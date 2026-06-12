@@ -165,3 +165,39 @@ Multimodal features.
 Benefit:
 
 Better object recognition.
+
+8.Module 3: Selection Module
+Purpose:
+
+Select grasp points belonging only to the target object.
+
+Input:
+
+Multimodal features
+Text features
+
+Process:
+
+Feature multiplication.
+Feature addition.
+MLP classification.
+
+Output:
+
+For each grasp point:
+For each grasp point:
+
+1 → Target Object
+0 → Not Target Object
+
+Repeated:
+
+4 times
+
+Loss Function:
+
+Focal Loss
+
+Reason:
+
+Handles class imbalance effectively.
