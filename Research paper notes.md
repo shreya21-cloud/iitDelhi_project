@@ -83,6 +83,8 @@ Yellow Bell Pepper
 CLIP can still understand the relationship.
 
 5. Grasp-CLIP Architecture
+
+ 
    RGB Image
       ↓
 CLIP Image Encoder
