@@ -201,3 +201,22 @@ Focal Loss
 Reason:
 
 Handles class imbalance effectively.
+
+
+9. Dataset Creation
+
+Simulation Platform:
+
+NVIDIA Isaac Sim
+
+Dataset Details:
+
+Item	Value
+Objects	266
+Training Scenes	142
+Objects per Scene	10
+Images per Scene	255
+Total Images	36,210
+
+Additional:
+100 unseen objects used for testing.
