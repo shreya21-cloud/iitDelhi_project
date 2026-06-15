@@ -345,3 +345,27 @@ Red hardback confused with red bell pepper.
 Reason:
 
 Similar visual appearance.
+
+14. Key Contributions
+Introduced Grasp-CLIP for language-guided grasping.
+Combined:
+Point Cloud
+RGB Image
+Text
+Designed GPRNet for grasp point filtering.
+Improved:
+Precision
+Inference speed
+Generalization
+Built a large simulation dataset.
+
+15. Final Takeaway
+
+Grasp-CLIP extends GSNet by integrating CLIP to understand natural language instructions and accurately select grasp poses for a target object. By combining point cloud, image, and text information, it achieves faster inference, fewer parameters, higher precision, and strong generalization to unseen objects.
+
+16.Personal Understanding
+GSNet generates all possible grasps.
+CLIP understands "what object the user wants."
+Dense Fusion combines visual + 3D information.
+Selection Module filters only target-object grasps.
+Final output = precise 6-DoF grasp for the requested object.
