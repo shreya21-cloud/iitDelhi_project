@@ -34,3 +34,53 @@ Improves:
 Zero-shot learning
 Few-shot learning
 Generalization to unseen tasks
+
+Popular Instruction-Tuned Models
+GPT-3 / InstructGPT / ChatGPT
+T5 / FLAN-T5
+PaLM / FLAN-PaLM
+OPT / OPT-IML
+
+Motivation for LLaVA
+Instruction tuning was highly successful in NLP.
+Researchers extended this idea to the multimodal (image + text) domain.
+Goal: Build a visual assistant that can understand both images and instructions.
+
+Existing Large Multimodal Models
+Flamingo
+Strong zero-shot and in-context learning abilities.
+BLIP-2
+Connects visual features with language models.
+FROMAGe
+Supports image-text understanding and generation.
+KOSMOS-1
+General-purpose multimodal model.
+PaLM-E
+Designed for embodied AI and robotics.
+OpenFlamingo
+Open-source implementation inspired by Flamingo.
+LLaMA-Adapter
+Enables LLaMA to process image inputs.
+
+Research Gap
+
+Existing multimodal models:
+
+Understand images and text.
+Show good task transfer capabilities.
+
+However:
+Not explicitly trained with vision-language instruction-following data.
+Instruction-following ability is weaker than text-only LLMs.
+
+LLaVA Contribution
+Introduces Visual Instruction Tuning.
+Uses GPT-4/ChatGPT-generated multimodal instruction data.
+Connects CLIP (Vision Encoder) with Vicuna (LLM).
+Trains the model to follow image-based instructions.
+Improves multimodal reasoning and conversational ability.
+
+Visual Instruction Tuning vs Visual Prompt Tuning
+Improves instruction-following ability	Improves parameter-efficient adaptation
+Focuses on user interaction	Focuses on efficient fine-tuning
+Used in LLaVA	Used for model adaptation
