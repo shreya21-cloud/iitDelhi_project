@@ -1,1 +1,22 @@
+Related Work
+1. Multimodal Instruction-Following Agents
+A. End-to-End Trained Models
+A single model directly learns the entire task.
+Designed for specific applications.
+Examples:
+Vision-Language Navigation
+Habitat
+InstructPix2Pix (image editing using text instructions)
 
+Limitation: Usually task-specific and less flexible for general-purpose interaction.
+
+B. Multi-Model Systems with LLMs
+Combine multiple specialized models through an LLM.
+Examples:
+Visual ChatGPT
+X-GPT
+MM-REACT
+VisProg
+ViperGPT
+
+Limitation: Depend on multiple external modules instead of a unified model.
