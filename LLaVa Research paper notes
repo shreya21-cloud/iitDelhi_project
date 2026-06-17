@@ -141,3 +141,41 @@ LLaVA + GPT-4	92.53%
 Observation
 LLaVA achieves strong reasoning performance.
 Combining LLaVA with GPT-4 sets a new State-of-the-Art result.
+
+Ablation Studies
+1. Visual Feature Selection
+Experiment
+
+Compare:
+
+Last-layer CLIP features
+Before-last-layer CLIP features
+Result
+Before-last-layer features: 90.92%
+Last-layer features: 89.96%
+Conclusion
+
+Before-last-layer features preserve finer visual details and improve accuracy.
+
+2. Chain-of-Thought (CoT)
+Experiment
+
+Compare:
+
+Answer-first prediction
+Reasoning-first prediction
+Conclusion
+
+Reasoning-first (CoT) helps the model learn logical reasoning more effectively and improves convergence speed.
+
+3. Importance of Pretraining
+Experiment
+
+Remove the Feature Alignment stage and train directly.
+
+Result
+With pretraining: 90.92%
+Without pretraining: 85.81%
+Conclusion
+
+Feature Alignment is essential for connecting image and language representations
