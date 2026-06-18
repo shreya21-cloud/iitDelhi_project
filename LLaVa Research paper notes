@@ -212,3 +212,13 @@ This paper introduces Visual Instruction Tuning and presents LLaVA, a multimodal
 - Generated large-scale multimodal instruction-following data using GPT-4.
 - Connected CLIP with Vicuna through a projection layer.
 - Achieved strong performance on multimodal reasoning tasks.
+
+## Results
+- Strong chatbot capabilities.
+- State-of-the-art performance on ScienceQA.
+- Effective image understanding and reasoning.
+
+## Future Scope
+- Better multimodal reasoning.
+- Improved visual understanding.
+- More capable general-purpose AI assistants.
