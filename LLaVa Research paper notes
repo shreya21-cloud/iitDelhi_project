@@ -200,3 +200,15 @@ Visual instruction tuning significantly improves multimodal capabilities.
 Reasoning-based data enhances performance.
 Feature alignment is critical for image-language integration.
 LLaVA achieves strong results on both chatbot and ScienceQA benchmarks.
+
+
+Conclusion
+
+## Overview
+This paper introduces Visual Instruction Tuning and presents LLaVA, a multimodal model capable of understanding images and following natural language instructions.
+
+## Key Contributions
+- Introduced visual instruction tuning.
+- Generated large-scale multimodal instruction-following data using GPT-4.
+- Connected CLIP with Vicuna through a projection layer.
+- Achieved strong performance on multimodal reasoning tasks.
